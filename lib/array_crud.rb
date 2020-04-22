@@ -3,22 +3,22 @@ def create_an_empty_array
 end
 
 def create_an_array
-barns = ["I", "am", "really", "learning"]
+array = ["I", "am", "really", "learning"]
 end
 
 def add_element_to_end_of_array(array, element)
-  barns = ["I", "am", "really", "learning"]
-  barns.push("arrays!")
+  array = ["I", "am", "really", "learning"]
+  element.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  barns = ["I", "am", "really", "learning", "arrays!"]
-  barns.unshift("wow")
+  array = ["I", "am", "really", "learning", "arrays!"]
+  element.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-barns = ["wow", "I", "am", "really", "learning", "arrays!"]
-  barns.pop("arrays!")
+array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  element.pop("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
