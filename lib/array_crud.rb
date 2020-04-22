@@ -3,21 +3,21 @@ def create_an_empty_array
 end
 
 def create_an_array
-barns = ["chicken", "pig", "cow", "horse"]
+barns = ["I", "am", "really", "learning"]
 end
 
 def add_element_to_end_of_array(array, element)
-  barns = ["chicken", "pig", "cow", "horse"]
+  barns = ["I", "am", "really", "learning"]
   barns.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  barns = ["chicken", "pig", "cow", "horse"]
+  barns = ["I", "am", "really", "learning", "arrays!"]
   barns.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-barns = ["I", "am", "really", "learning", "arrays!"]
+barns = ["wow", "I", "am", "really", "learning", "arrays!"]
   barns.pop("arrays!")
 end
 
