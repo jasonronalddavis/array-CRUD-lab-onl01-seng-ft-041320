@@ -16,8 +16,7 @@ def add_element_to_start_of_array(array, element)
   barns.unshift("wow")
 end
 
-def remove_element_from_end_of_array(array)
-barns = ["wow", "I", "am", "really", "learning", "arrays!"]
+def remove_element_from_end_of_array(barnes)
   barns.pop("arrays!")
 end
 
