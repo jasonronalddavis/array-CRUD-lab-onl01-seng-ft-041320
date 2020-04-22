@@ -6,7 +6,7 @@ def create_an_array
 barns = ["chicken", "pig", "cow", "horse"]
 end
 
-def add_element_to_end_of_array(array, element)
+def add_element_to_end_of_array(array, element)=barnes
   barns = ["chicken", "pig", "cow", "horse"]
   barns<<("goat")
 end
