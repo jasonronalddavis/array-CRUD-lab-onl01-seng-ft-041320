@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   barns = ["chicken", "pig", "cow", "horse"]
-  barns.push("goat")
+  barns.last("goat")
 end
 
 def add_element_to_start_of_array(array, element)
